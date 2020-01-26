@@ -1,0 +1,2 @@
+include ':app', ':snacyalert'
+rootProject.name='Sample'
