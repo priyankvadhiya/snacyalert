@@ -23,7 +23,7 @@ class AlertView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyle: Int = 0
-) : FrameLayout(context, attrs, defStyle), Animation.AnimationListener {
+) : FrameLayout(context, attrs, defStyle), Animation.AnimationListener{
 
     private var enterAnimation: Animation =
         AnimationUtils.loadAnimation(context, R.anim.slide_in_from_top)
